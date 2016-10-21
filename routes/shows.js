@@ -46,8 +46,8 @@ router.post('/add', upload.single('image'), function(req,res){
 router.get('/', function(req, res){
     var query = {};
     //if you did something like localhost:8888/pets?animal=fish, fish would be the query
-    if (req.query.showName){
-        query = {showName: req.query.animal};
+    if (req.query.genre){
+        query = {genre: req.query.genre};
     }
     
     Show.find(query, function(err, data){
