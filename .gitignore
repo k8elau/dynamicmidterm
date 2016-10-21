@@ -1,3 +1,5 @@
 .env
 node_modules
-public
+public/css
+public/fonts
+public/js
