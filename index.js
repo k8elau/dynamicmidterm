@@ -1,11 +1,14 @@
 /*
 list of things to do 
-x selecting multiple genres
-- getting buttons instead of checkboxes  
     - focus on submitting new recommendations
-- figure out standardizing images for recommendations
+- standardizing images for recommendations
 - work on mixitup kunkalabs
     - browsing and viewing existing recommendations
+    
+
+- nice to haves:
+- make the form look a little nicer
+- getting buttons instead of checkboxes
 - getting information to show up when you hover over the show box
 - what do when the show already EXISTS? boi
 */

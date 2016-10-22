@@ -1,11 +1,13 @@
 <div class="container"><a href="../shows/add">Add a new show</a></div>
+<div id="Container">
 {{#each shows}}
-<a href="shows/{{slug}}"><div class="show col-md-4">
-        <h1>{{show_name}}</h1>
-        <h2>genre:{{genre}}</h2>
-        <h3>released in: {{year_released}}</h3>
+<a href="shows/{{slug}}"><div class="show col-md-4 crop">
         {{#if imageFilename}}
         <img src="/uploads/{{imageFilename}}">
         {{/if}}
+        <h1>{{show_name}}</h1>
+        <h2>genre:{{genre}}</h2>
+        <h3>released in: {{year_released}}</h3>
     </div></a>   
 {{/each}}
+</div>

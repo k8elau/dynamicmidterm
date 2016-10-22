@@ -26,7 +26,34 @@ a{
     border-color: #011638;
 }
 
-#description{
-    background-color:white;
-    color: #CDCDCD;
+#wrapper{
+    width:1000px;
+    border: 1px solid black;
+    overflow:hidden;
+    padding: 8px;
 }
+
+#show_slug{
+    float:left;
+}
+
+#description{
+    margin-top:85px;
+    float: left;
+    display:inline-block;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.crop {
+    height: 350px;
+    overflow:hidden;
+}
+
+.crop img{
+    margin-left:17px;
+    height: 100%;
+    width:auto;
+}
+
