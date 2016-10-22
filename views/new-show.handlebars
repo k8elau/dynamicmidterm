@@ -9,6 +9,30 @@
     </div>
     <div class="form-group">
         <label for="genre">Genre:</label>
+        <input type="checkbox" name="genre" value="horror"> Horror
+        <input type="checkbox" name="genre" value="comedy"> Comedy
+        <input type="checkbox" name="genre" value="indie"> Indie
+        <input type="checkbox" name="genre" value="action"> Action
+        <input type="checkbox" name="genre" value="mystery"> Mystery
+        <input type="checkbox" name="genre" value="sci-fi"> Sci-Fi
+        <input type="checkbox" name="genre" value="romance"> Romance
+        <input type="checkbox" name="genre" value="documentary"> Documentary
+        <input type="checkbox" name="genre" value="drama"> Drama
+    </div>
+    <div class="form-group">
+        <label for="description">Brief Description:</label>
+        <textarea type="text" name="description" id="description" class="form-control" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        Image:
+        <input id="image" type="file" name="image" accepts="image/*">
+    </div>
+    <input type="submit">
+</form>
+
+
+  <div class="form-group">
+        <label for="genre">Genre:</label>
         <select name="genre" id="genre" class="form-control">
         <option value="horror">horror</option>
         <option value="comedy">comedy</option>
@@ -21,13 +45,3 @@
         <option value="drama">drama</option>
     </select>
     </div>
-    <div class="form-group">
-        <label for="description">Brief Description:</label>
-        <textarea type="text" name="description" id="description" class="form-control" rows="3"></textarea>
-    </div>
-    <div class="form-group">
-        Image:
-        <input id="image" type="file" name="image" accepts="image/*">
-    </div>
-    <input type="submit">
-</form>

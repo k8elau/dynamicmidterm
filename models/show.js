@@ -9,9 +9,12 @@ var showSchema = new Schema({
   //movie is False if they are submitting a show/series?
   //movie: Boolean,
   //would this be an array??? ask jason about the embedding thing
-  genre: String,
+  genre: [{
+      type: String
+  }],
+  //genre: [String],
   //actors are inputted kind of like tags
-  actors: [String],
+  //actors: [String],
   year_released: Number,
   description: String,
   imageFilename: String,

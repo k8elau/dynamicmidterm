@@ -1,3 +1,15 @@
+/*
+list of things to do 
+x selecting multiple genres
+- getting buttons instead of checkboxes  
+    - focus on submitting new recommendations
+- figure out standardizing images for recommendations
+- work on mixitup kunkalabs
+    - browsing and viewing existing recommendations
+- getting information to show up when you hover over the show box
+- what do when the show already EXISTS? boi
+*/
+
 // order of doing things (installing stuff on node)
 /*
 npm install http-server -g 
@@ -33,8 +45,12 @@ app.engine('handlebars', hbs({defaultLayout: 'main'}) );
 app.set('view engine', 'handlebars');
 
 // parse application/x-www-form-urlencoded (allows us to access form data)
-app.use(bodyParser.urlencoded({ extended: false }));
+//app.use(bodyParser.urlencoded({ extended: false }));
 
+//http://stackoverflow.com/questions/35668409/node-js-post-request-for-input-array
+//made it true because of that stackoverflow answer (genre array input)
+
+app.use(bodyParser.urlencoded({ extended: true }));
 // parse application/json
 app.use(bodyParser.json());
 
