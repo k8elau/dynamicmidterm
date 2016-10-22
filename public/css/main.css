@@ -1,3 +1,10 @@
+/*
+    #011638: Black
+    #BC1C31: Red
+    #FFF8E8: Marshmallow
+    #CDCDCD: Grey
+*/
+
 h1{
     font-family: 'Hind', sans-serif;
 }
@@ -8,4 +15,18 @@ h2{
 
 body{
     background-color: #FFF8E8;
+}
+
+a{
+    color: #BC1C31;
+}
+
+.show{
+    border: solid;
+    border-color: #011638;
+}
+
+#description{
+    background-color:white;
+    color: #CDCDCD;
 }
