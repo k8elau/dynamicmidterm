@@ -6,10 +6,8 @@ x standardizing images for recommendations
     - browsing and viewing existing recommendations
     
 - nice to haves:
-- make the form look a little nicer
-- getting buttons instead of checkboxes
 - what do when the show already EXISTS? boi
-- figure out how to 
+- uploading image on AWS doesn't show up on localhost
 */
 
 // order of doing things (installing stuff on node)

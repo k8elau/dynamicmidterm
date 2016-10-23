@@ -8,11 +8,9 @@ var showSchema = new Schema({
   show_name:  String,
   //movie is False if they are submitting a show/series?
   //movie: Boolean,
-  //would this be an array??? ask jason about the embedding thing
   genre: [{
       type: String
   }],
-  //genre: [String],
   //actors are inputted kind of like tags
   //actors: [String],
   year_released: Number,
@@ -40,5 +38,5 @@ showSchema.plugin(URLSlugs('show_name', {field: 'slug'}));
 
 var Show = mongoose.model('Show', showSchema);
 
-// when we require this file, we get Pet model
+// when we require this file, we get Show model
 module.exports = Show;

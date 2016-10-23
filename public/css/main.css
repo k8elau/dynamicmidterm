@@ -33,6 +33,11 @@ a{
 #logo:hover{
     transform: scale(1.2);
 }
+
+#buttons{
+    text-align:center;
+    padding-bottom:5px;
+}
 .show{
     padding-top:10px;
     position:relative;
@@ -40,6 +45,14 @@ a{
     padding-bottom: 15px;
 }
 
+.btn.btn-primary{
+    background-color: #BC1C31;
+    border-color: #FFF8E8;
+}
+
+.btn-primary.active{
+    background-color:black;
+}
 .imageDescription{
     position:absolute;
     top:0;
