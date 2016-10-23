@@ -1,13 +1,29 @@
-<div class="container"><a href="../shows/add">Add a new show</a></div>
+<style>
+#Container .mix {
+	display: none;
+}
+</style>
+
+<div><button class="filter" data-filter=".comedy">Comedy</button>
+<button class="filter" data-filter=".drama">Drama</button>
+<button class="filter" data-filter=".indie">Indie</button>
+<button class="filter" data-filter=".action">Action</button>
+<button class="filter" data-filter=".mystery">Mystery</button>
+<button class="filter" data-filter=".sci-fi">Sci-Fi</button>
+<button class="filter" data-filter=".romance">Romance</button>
+<button class="filter" data-filter=".documentary">Documentary</button>
+<button class="filter" data-filter=".horror">Horror</button>
+</div>
+
 <div id="Container">
 {{#each shows}}
-<a href="shows/{{slug}}"><div class="show col-md-4 crop">
+<a href="shows/{{slug}}"><div class="show col-md-4 mix {{genre}}" data-myorder="{{genre}}">
         {{#if imageFilename}}
-        <img src="/uploads/{{imageFilename}}">
+        <img src="/uploads/{{imageFilename}}" width="270px" height="400px">
         {{/if}}
-        <h1>{{show_name}}</h1>
-        <h2>genre:{{genre}}</h2>
-        <h3>released in: {{year_released}}</h3>
+    <p class="imageDescription">
+        {{genre}}
+    </p>
     </div></a>   
 {{/each}}
 </div>

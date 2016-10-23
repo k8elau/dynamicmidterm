@@ -1,15 +1,14 @@
 /*
 list of things to do 
     - focus on submitting new recommendations
-- standardizing images for recommendations
-- work on mixitup kunkalabs
+x standardizing images for recommendations
+- work on mixitup kunkalabs - create a "help" modal that tells users how to use the URL query string. http://localhost:8888/shows?genre=comedy&genre=drama gets shows that are BOTH comedy and drama, while http://localhost:8888/shows?genre=comedy&drama gets shows that are comedy, or drama, or both.
     - browsing and viewing existing recommendations
     
 
 - nice to haves:
 - make the form look a little nicer
 - getting buttons instead of checkboxes
-- getting information to show up when you hover over the show box
 - what do when the show already EXISTS? boi
 */
 

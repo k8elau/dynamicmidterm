@@ -16,9 +16,18 @@
 </head>
 
 <body>
-    <a href="../shows"><img src="/img/logo.png" alt="LOGO" style="width:209px;height:98px;"></a>
+    <a href="../shows"><img src="/img/logo.png" alt="LOGO" id="logo"></a>
+    <a href="../shows/add"><button id="submit your own!">SUBMIT YOUR OWN</button></a>
   <div class="container">
     {{{body}}}
   </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#Container').mixItUp();
+    });
+</script>
+
 </body>
 </html>
