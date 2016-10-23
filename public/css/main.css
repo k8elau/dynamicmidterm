@@ -34,9 +34,10 @@ a{
     transform: scale(1.2);
 }
 .show{
+    padding-top:10px;
     position:relative;
     text-align:center;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .imageDescription{
