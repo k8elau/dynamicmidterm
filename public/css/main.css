@@ -102,6 +102,13 @@ a{
     display: none;
 }
 
+#topbutton{
+    position: fixed;
+    text-decoration-style:wavy;
+    bottom:8px;
+    left:10px;
+    padding-left:5px;
+}
 /*showing pictures on main page*/
 /*.crop {
     height: 350px;
