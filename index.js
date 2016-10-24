@@ -17,7 +17,7 @@ npm init *creates node project* *press enter a bunch of times*
 npm install express --save *gets express running*
 npm install express-handlebars *enable templating in express*
 npm install nodemon -g *lets you use nodemon index.js to run thing*
-npm install body parser *used for parsing through form data*
+npm install body-parser *used for parsing through form data*
 npm install --save multer *the image uploading package*
 npm install mongoose --save *used for accessing the database on mlab*
 npm install mongoose-url-slugs *the package that slugifies things*

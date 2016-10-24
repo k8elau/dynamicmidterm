@@ -13,7 +13,7 @@ var uploadPath = path.join(__dirname, '../public/uploads');
 var upload = multer({ dest: uploadPath});
 var Show = require('../models/show');
 
-//when you go to 'shows/add', it renders new-pet.handlebars view
+//when you go to 'shows/add', it renders new-show.handlebars view
 router.get('/add', function(req, res){
     res.render('new-show');
 });
@@ -23,7 +23,7 @@ router.get('/add', function(req, res){
 router.post('/add', upload.single('image'), function(req,res){
    var show = new Show({
       show_name: req.body.show_name,
-      //ask jason about getting arrays (the stuff he talked about in slack)?
+
       genre: req.body.genre,
       year_released: req.body.year_released,
       imageFilename:req.file.filename,

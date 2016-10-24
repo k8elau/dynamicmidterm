@@ -6,27 +6,16 @@ var URLSlugs = require('mongoose-url-slugs');
 //all the data
 var showSchema = new Schema({
   show_name:  String,
-  //movie is False if they are submitting a show/series?
-  //movie: Boolean,
   genre: [{
       type: String
   }],
-  //actors are inputted kind of like tags
-  //actors: [String],
   year_released: Number,
   description: String,
   imageFilename: String,
-  //date is when the recommendation was posted? (necessary or nah)
   date: { 
     type: Date, 
     default: Date.now 
   },
-  /*
-  comments: [{ 
-    body: String, 
-    date: Date 
-  }],
-  */
   meta: {
     votes: Number
   }
