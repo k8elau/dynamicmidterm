@@ -1,12 +1,9 @@
 /*
 list of things to do 
-    - focus on submitting new recommendations
-x standardizing images for recommendations
-- work on mixitup kunkalabs - create a "help" modal that tells users how to use the URL query string. http://localhost:8888/shows?genre=comedy&genre=drama gets shows that are BOTH comedy and drama, while http://localhost:8888/shows?genre=comedy&drama gets shows that are comedy, or drama, or both.
-    - browsing and viewing existing recommendations
     
-- nice to haves:
-- what do when the show already EXISTS? boi
+- for the future:
+- FIGURE OUT WHY MIXITUP DOESN'T WORK 
+- what do when the show already EXISTS? 
 - uploading image on AWS doesn't show up on localhost
 */
 

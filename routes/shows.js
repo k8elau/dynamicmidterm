@@ -61,6 +61,7 @@ router.get('/', function(req, res){
 });
 
 
+ //http://localhost:8888/shows?genre=comedy&genre=drama gets shows that are BOTH comedy and drama, while http://localhost:8888/shows?genre=comedy&drama gets shows that are comedy, or drama, or both.
 //this would be an individual show info page, because all shows have different slugs
 router.get('/:show_name', function(req, res){
     Show.findOne({slug: req.params.show_name}, function(err, data){
